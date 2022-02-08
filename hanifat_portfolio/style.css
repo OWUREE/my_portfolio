@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster");
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 10px;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+  color: rgb(4, 0, 26);
+}
+/* END*/
+/* this section is the header section that contains the navigational bar */
+
+.navbar {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 500;
+  width: 100%;
+  border-bottom: 1px solid #ff0000;
+  overflow: auto;
+  position: fixed;
+}
+
+.container {
+  background: white;
+  padding: 1rem 0;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  color: rgb(4, 0, 26);
+  font-size: 2.6rem;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  flex-basis: 30%;
+}
+.navbar-logo a {
+  background: none;
+  color: rgb(4, 0, 26);
+}
+.navbar-logo a:hover {
+  background: none;
+}
+
+
+.navbar-links {
+  display: flex;
+  flex-basis: 40%;
+}
+.navbar-links ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-links li {
+  list-style-type: none;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.navbar-links ul li a {
+  text-decoration: none;
+  color: rgb(4, 0, 26);
+  padding: 7px 13px;
+}
+.navbar-button {
+  display: flex;
+  flex-basis: 20%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar-button button {
+  width: 60%;
+  height: 100%;
+}
+
+.navbar-button button a {
+  text-decoration: none;
+}
+a.active,
+a:hover {
+  background: #ff0000;
+  transition: 0.5s;
+}
+ .hero {
+  width: 100%;
+  justify-content: center;
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: auto;
+  height: 100vh;
+}
+
+.container2 {
+  background: rgb(255, 255, 255);
+  padding: 1rem 0;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.first h1 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 1rem;
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.first-paragragh {
+  color: rgb(4, 0, 26);
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.second-paragragh {
+  margin-top: 1rem;
+  font-size: 20px;
+  font-weight: 300;
+}
+.email-me {
+  display: flex;
+  margin-top: 8%;
+}
+
+input {
+  margin-top: 50px;
+  padding: 12px;
+  width: 400px;
+  z-index: 1;
+  border: 1px solid #ff0000;
+  background-color: transparent;
+}
+
+.portfolio-btn {
+  margin-left: -50px;
+  padding: 8px;
+  margin-top: 50px;
+
+  background: #ff0000;
+  border: 0;
+  font-weight: bold;
+  width: 150px;
+  z-index: 5;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(4, 0, 26);
+}
+
+.aboutme-container {
+  background: rgb(4, 0, 26);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.inside-container {
+  display: flex;
+  width: 80%;
+  height: 100vh;
+
+  gap: 7rem;
+  flex-wrap: wrap;
+  margin-top: 5%;
+}
+.picturee {
+  flex: 1;
+}
+.second-picture {
+  width: 100%;
+}
+.insidecontainer-aboutme {
+
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.insidecontainer-aboutme h2 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 5rem;
+}
+.insidecontainer-aboutme h3 {
+  color: white;
+  font-size: 3rem;
+  margin-top: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+.insidecontainer-aboutme p {
+  color: rgb(224, 224, 224);
+  font-size: 2rem;
+  margin-top: 1rem;
+  line-height: 3.5rem;
+}
+
+.color-text {
+  color: #ff0000;
+}
+.color-name {
+  color: #ff0000;
+}
+div p{
+  line-height: 6rem;
+  word-spacing: 0.3rem;
+}
+.buttons {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+ button {
+  color: rgb(4, 0, 26);
+  padding: 9px;
+  width: 100px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid #ff0000;
+  outline: none;
+ 
+}
+button a{
+  color: white;
+}
+ 
+
+.but1 button a:hover {
+  background: none;
+}
+.projects-intro h1{
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 5rem;
+  color:rgb(4, 0, 26) ;
+}
+.projects-intro h3{
+  font-size: 3rem;
+  color: #ff0000;
+}
+.project-container{
+  margin: 1.5rem;
+}
+.project-container .content{
+  display: flex;
+  justify-content: space-between;
+}
+.project-container .content .project-text{
+  font-size: 2.5rem;
+  line-height: 6rem;
+  word-spacing: 0.3rem;
+}
+.project-btn a{
+  padding: 0.5rem;
+  font-size: 1.35rem;
+  color:rgb(4, 0, 26);
+}
+.flex-items{
+  display: flex;
+  justify-content: space-evenly;
+}
+.flex-items button a{
+  color: rgb(4, 0, 26);
+  font-size: 1.4rem;
+ 
+}
+.flex-items button{
+  margin-top: 1rem;
+  width: 24%;
+}
+.time{
+  font-size: 2rem;
+  color: #ff0000;
+}
+.project-container .skill{
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+.social-icons{
+  margin: 2rem;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+.social-icons a{
+ margin-left: 4rem;
+}
+.award-content{
+  font-size: 2.5rem;
+  word-spacing: 2rem;
+}
+.award-content ul{
+  margin-top: 2rem;
+}
+.award-content ul li{
+  list-style-type: none;
+}
+
+
